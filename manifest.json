@@ -1,0 +1,26 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "startpage-nord.html"
+   },
+   "default_locale": "en_US",
+   "description": "serpro69's personal NewTab",
+   "icons": {
+      "128": "assets/icon128.png",
+      "96": "assets/icon96.png",
+      "32": "assets/icon32.png"
+   },
+   "manifest_version": 3,
+   "name": "serpro69_NewTab",
+   "version": "1.5",
+   "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["script.js"],
+        "match_about_blank": true
+      }
+    ],
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ]
+}

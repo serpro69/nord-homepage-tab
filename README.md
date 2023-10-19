@@ -11,3 +11,8 @@ Therefore I've converted my local new-tab.html file into an extension of its own
 ### Credits
 
 - [xero/startpage](https://github.com/xero/startpage)
+
+### ToDo
+
+- [ ] installation for firefox
+  - [prefereably avoid building/packaging](https://github.com/tsaost/autoload-temporary-addon)

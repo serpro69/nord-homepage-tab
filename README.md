@@ -8,6 +8,18 @@ I've been using [NewTab-Redirect](https://github.com/jimschubert/NewTab-Redirect
 
 Therefore I've converted my local new-tab.html file into an extension of its own, which I add to brave manually via "load unpacked" extension option in brave://extensions (developer mode needs to be enabled for this to work)
 
+### Usage
+
+- Clone the repo `git clone https://github.com/serpro69/serpro-new-tab.git`
+- Create `data.json` file and add your bookmarks to it (use `sample-data.json` as example)
+- Open extensions: type `brave://extensions/` in the address bar (or `chrome://extensions/` if you're *still* using Chrome)
+  - Enable developer mode
+  - Click 'Load unpacked' and select the path to the cloned repo on your local machine
+- Profit
+
+To update simply run `git pull` in the repo. 
+The browser should automatically use latest code, but you can also reload the extension manually from the extensions page.
+
 ### Credits
 
 - [xero/startpage](https://github.com/xero/startpage)

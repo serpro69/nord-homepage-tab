@@ -1,6 +1,7 @@
 [
   {
     "id": "work",
+    "icon": "fa-laptop",
     "_": [{
       "url": "https://duckduckgo.com/",
       "lbl": "duckies"
@@ -10,6 +11,7 @@
     }]
   },{
     "id": "personal",
+    "icon": "fa-user-secret",
     "_": [{
       "url": "https://github.com/serpro69",
       "lbl": "github-profile"
@@ -19,6 +21,7 @@
     }]
   },{
     "id": "timesink",
+    "icon": "fa-hourglass-end",
     "_": [{
       "url": "https://www.reddit.com/r/unixporn",
       "lbl": "r-unixporn"
@@ -37,6 +40,7 @@
     }]
   },{
     "id": "social",
+    "icon": "fa-thumbs-up",
     "_": [{
       "url": "https://web.whatsapp.com/",
       "lbl": "whatsapp"
@@ -52,6 +56,7 @@
     }]
   },{
     "id": "reading",
+    "icon": "fa-newspaper",
     "_": [{
       "url": "https://medium.com",
       "lbl": "medium"

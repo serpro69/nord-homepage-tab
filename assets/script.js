@@ -64,10 +64,19 @@ function search() {
 
 function build(j) {
   for(const x of j) {
-    let node = `<section><h1>${x.id}</h1><ul>`;
+    let node = `
+        <section>
+            <h1><i class="fa-solid ${x.icon}"></i> ${x.id}</h1>
+            <ul class="fa-ul">`;
     for(const l of x._) {
       if(!l.hidden) {
-        node += `<li><a href="${l.url}">${l.lbl}</a></li>`
+        node += `
+            <li>
+                <span class="fa-li">
+                    <i class="fas ${l.icon}"></i>
+                </span>
+                <a href="${l.url}">${l.lbl}</a>
+            </li>`
       }
     }
     node += `</ul></section>`;

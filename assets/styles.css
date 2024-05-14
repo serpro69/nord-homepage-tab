@@ -9,6 +9,7 @@
 body {
   background: #2E3440;
   color: #c0c0c0;
+  /*noinspection CssNoGenericFontName*/
   font-family: topaz;
   font-weight: normal;
   margin: 1% 10%;
@@ -22,6 +23,7 @@ article {
 }
 
 section {
+  /*noinspection CssInvalidFunction*/
   background: -webkit-linear-gradient(top, #3B4252 0%, #2E3440 90%);
   flex: 1 0 20%;
   padding: 20px;
@@ -30,6 +32,7 @@ section {
 }
 
 #search {
+  /*noinspection CssRedundantUnit*/
   margin-bottom: 0px;
 }
 
@@ -45,11 +48,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width 100%;
+  width: 100%;
 }
 
 li {
-  width 100%;
+  width: 100%;
   background: #2E3440;
   margin: 2px;
   padding: 2px;
@@ -88,6 +91,7 @@ input[type=text] {
   color: #c0c0c0;
   width: 99%;
   height: 50px;
+  /*noinspection CssRedundantUnit*/
   padding: 5px 0px 5px 15px;
   font-size: 20pt;
   text-align: left;

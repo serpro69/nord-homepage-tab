@@ -5,7 +5,7 @@
    "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["script.js"],
+        "js": ["assets/script.js"],
         "match_about_blank": true
       }
     ],

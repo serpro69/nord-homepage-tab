@@ -75,7 +75,7 @@ function build(j) {
                 <span class="fa-li">
                     <i class="fas ${l.icon}"></i>
                 </span>
-                <a href="${l.url}">${l.lbl}</a>
+                <a id="url" href="${l.url}">${l.lbl}</a>
             </li>`
       }
     }
@@ -95,4 +95,30 @@ document.addEventListener("DOMContentLoaded", function () {
       findInput.addEventListener("change", search);
       findInput.focus();
     });
+
+/* add icon on hovering over urls
+  document.getElementById("main").addEventListener("mouseover", function(event) {
+    if (event.target.matches("a#url")) {
+      const iconSpan = event.target.previousElementSibling;
+      const iconElement = document.createElement("i");
+      iconElement.classList.add("on-hover")
+      iconElement.classList.add("fas");
+      iconElement.classList.add("fa-xl");
+      iconElement.classList.add("fa-spinner");
+      iconElement.classList.add("fa-pulse");
+      iconSpan.appendChild(iconElement);
+    }
+  });
+
+  document.getElementById("main").addEventListener("mouseout", function(event) {
+    if (event.target.matches("a#url")) {
+      const iconSpan = event.target.previousElementSibling;
+      const iconElement = iconSpan.querySelector("svg.on-hover");
+      if (iconElement) {
+        iconSpan.removeChild(iconElement);
+      }
+    }
+  });
+*/
 });
+

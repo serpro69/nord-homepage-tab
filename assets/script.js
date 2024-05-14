@@ -64,19 +64,17 @@ function search() {
 
 function build(j) {
   for(const x of j) {
-    let node = `
-        <section>
-            <h1><i class="fa-solid ${x.icon}"></i> ${x.id}</h1>
-            <ul class="fa-ul">`;
+    let node = `<section>
+      <h1><i class="fa-solid ${x.icon}"></i> ${x.id}</h1>
+      <ul class="fa-ul">`;
     for(const l of x._) {
       if(!l.hidden) {
-        node += `
-            <li>
-                <span class="fa-li">
-                    <i class="fas ${l.icon}"></i>
-                </span>
-                <a id="url" href="${l.url}">${l.lbl}</a>
-            </li>`
+        node += `<li>
+          <span class="fa-li">
+            ${l.icon ? `<i class="fas ${l.icon}"></i>` : ``}
+          </span>
+          <a id="url" href="${l.url}">${l.lbl}</a>
+        </li>`;
       }
     }
     node += `</ul></section>`;
@@ -96,17 +94,20 @@ document.addEventListener("DOMContentLoaded", function () {
       findInput.focus();
     });
 
-/* add icon on hovering over urls
+  // add icon on hovering over urls
+/*
   document.getElementById("main").addEventListener("mouseover", function(event) {
     if (event.target.matches("a#url")) {
       const iconSpan = event.target.previousElementSibling;
-      const iconElement = document.createElement("i");
-      iconElement.classList.add("on-hover")
-      iconElement.classList.add("fas");
-      iconElement.classList.add("fa-xl");
-      iconElement.classList.add("fa-spinner");
-      iconElement.classList.add("fa-pulse");
-      iconSpan.appendChild(iconElement);
+      if (!iconSpan.querySelector("svg")) {
+        const iconElement = document.createElement("i");
+        iconElement.classList.add("on-hover")
+        iconElement.classList.add("fas");
+        iconElement.classList.add("fa-xl");
+        iconElement.classList.add("fa-spinner");
+        iconElement.classList.add("fa-pulse");
+        iconSpan.appendChild(iconElement);
+      }
     }
   });
 

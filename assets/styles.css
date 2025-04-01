@@ -79,6 +79,10 @@ li:focus {
   background: #3B4252;
 }
 
+i {
+  font-size: 18pt;
+}
+
 input[type=text]:focus {
   outline: none;
   border: none;

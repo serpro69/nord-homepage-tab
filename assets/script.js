@@ -55,7 +55,7 @@ function search() {
   data.filter((x) => {
     x._.filter((xx) => {
       if (xx.lbl.indexOf(find) != -1 || xx.url.indexOf(find) != -1) {
-        results[0]._.push({ url: xx.url, lbl: xx.lbl });
+        results[0]._.push({ url: xx.url, lbl: xx.lbl, icon: xx.icon });
         found = true;
       }
     });
@@ -75,7 +75,7 @@ function build(j) {
         if (l.icon) {
           icon = `<i class="fas ${l.icon}"></i>`;
           if (l.icon.startsWith("devicon")) {
-            icon = `<i class="${l.icon}"></i>`
+            icon = `<i class="${l.icon}"></i>`;
           }
         }
         node += `<li>

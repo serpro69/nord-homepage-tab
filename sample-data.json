@@ -2,70 +2,95 @@
   {
     "id": "work",
     "icon": "fa-laptop",
-    "_": [{
-      "url": "https://duckduckgo.com/",
-      "lbl": "duckies"
-    },{
-      "url": "https://github.com",
-      "lbl": "github"
-    }]
-  },{
+    "_": [
+      {
+        "url": "https://duckduckgo.com/",
+        "lbl": "duckies"
+      },
+      {
+        "url": "https://github.com",
+        "lbl": "github"
+      }
+    ]
+  },
+  {
     "id": "personal",
     "icon": "fa-user-secret",
-    "_": [{
-      "url": "https://github.com/serpro69",
-      "lbl": "github-profile"
-    },{
-      "url": "https://gitlab.com",
-      "lbl": "gitlab"
-    }]
-  },{
+    "_": [
+      {
+        "url": "https://github.com/serpro69",
+        "lbl": "github-profile"
+      },
+      {
+        "url": "https://gitlab.com",
+        "lbl": "gitlab"
+      }
+    ]
+  },
+  {
     "id": "timesink",
     "icon": "fa-hourglass-end",
-    "_": [{
-      "url": "https://www.reddit.com/r/unixporn",
-      "lbl": "r-unixporn"
-    },{
-      "url": "https://pimylifeup.com",
-      "lbl": "pi-tutorials"
-    },{
-      "url": "https://notebooktalk.net/",
-      "lbl": "notebooktalk"
-    },{
-      "url": "https://forums.servethehome.com/index.php",
-      "lbl": "servethehome"
-    },{
-      "url": "https://www.scienceforums.net/",
-      "lbl": "scienceforums"
-    }]
-  },{
+    "_": [
+      {
+        "url": "https://www.reddit.com/r/unixporn",
+        "lbl": "r-unixporn"
+      },
+      {
+        "url": "https://pimylifeup.com",
+        "lbl": "pi-tutorials"
+      },
+      {
+        "url": "https://notebooktalk.net/",
+        "lbl": "notebooktalk"
+      },
+      {
+        "url": "https://forums.servethehome.com/index.php",
+        "lbl": "servethehome"
+      },
+      {
+        "url": "https://www.scienceforums.net/",
+        "lbl": "scienceforums"
+      }
+    ]
+  },
+  {
     "id": "social",
     "icon": "fa-thumbs-up",
-    "_": [{
-      "url": "https://web.whatsapp.com/",
-      "lbl": "whatsapp"
-    },{
-      "url": "https://youtube.com/",
-      "lbl": "youtube"
-    },{
-      "url": "https://facebook.com",
-      "lbl": "facebook"
-    },{
-      "url": "https://linkedin.com",
-      "lbl": "linkedin"
-    }]
-  },{
+    "_": [
+      {
+        "url": "https://web.whatsapp.com/",
+        "lbl": "whatsapp"
+      },
+      {
+        "url": "https://youtube.com/",
+        "lbl": "youtube"
+      },
+      {
+        "url": "https://facebook.com",
+        "lbl": "facebook"
+      },
+      {
+        "url": "https://linkedin.com",
+        "lbl": "linkedin"
+      }
+    ]
+  },
+  {
     "id": "reading",
     "icon": "fa-newspaper",
-    "_": [{
-      "url": "https://medium.com",
-      "lbl": "medium"
-    },{
-      "url": "https://blog.kotlin-academy.com/",
-      "lbl": "KotlinAcademy"
-    },{
-      "url": "https://blog.jetbrains.com/kotlin/",
-      "lbl": "JetBrains KotlinBlog"
-    }]
+    "_": [
+      {
+        "url": "https://medium.com",
+        "lbl": "medium"
+      },
+      {
+        "url": "https://blog.kotlin-academy.com/",
+        "lbl": "KotlinAcademy"
+      },
+      {
+        "url": "https://blog.jetbrains.com/kotlin/",
+        "lbl": "JetBrains KotlinBlog"
+      }
+    ]
   }
 ]

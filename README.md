@@ -1,6 +1,8 @@
-### serpro-new-tab
+# nord-homepage-tab
 
 My personal "new tab" as a chrome extension
+
+![image](https://github.com/user-attachments/assets/ca100a6c-e929-4a16-93a7-cc29f601ef85)
 
 #### Motivation
 

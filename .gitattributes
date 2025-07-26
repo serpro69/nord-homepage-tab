@@ -1,0 +1,11 @@
+# diff sops-encrypted  files with custom differ
+# https://github.com/getsops/sops?tab=readme-ov-file#48showing-diffs-in-cleartext-in-git
+*.sops         diff=sopsdiffer
+data.json.sops diff=sopsdiffer_binary
+
+# Handle line endings automatically for files detected as text and leave all files detected as binary untouched.
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+

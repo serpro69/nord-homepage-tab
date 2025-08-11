@@ -76,6 +76,8 @@ function build(j) {
           icon = `<i class="fas ${l.icon}"></i>`;
           if (l.icon.startsWith("devicon")) {
             icon = `<i class="${l.icon}"></i>`;
+          } else if (l.icon.startsWith("simple-icons-")) {
+            icon = `<img height="24" width="24" src="https://cdn.simpleicons.org/${l.icon.replace("simple-icons-", "")}?viewbox=auto" />`;
           }
         }
         node += `<li>

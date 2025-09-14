@@ -78,6 +78,8 @@ function build(j) {
             icon = `<i class="${l.icon}"></i>`;
           } else if (l.icon.startsWith("simple-icons-")) {
             icon = `<img height="24" width="24" src="https://cdn.simpleicons.org/${l.icon.replace("simple-icons-", "")}?viewbox=auto" />`;
+          } else if (l.icon.startsWith("mdi-")) {
+            icon = `<span class="mdi ${l.icon}" style="font-size: 24px !important;"></span>`;
           }
         }
         node += `<li>

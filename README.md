@@ -22,6 +22,15 @@ Therefore I've converted my local new-tab.html file into an extension of its own
 To update simply run `git pull` in the repo. 
 The browser should automatically use latest code, but you can also reload the extension manually from the extensions page.
 
+#### Icon Support
+
+The following icon-sets are supported:
+
+- [materialdesign](https://pictogrammers.com/library/mdi/)
+- [fontawesome (free)](https://fontawesome.com/icons)
+- [simple icons](https://simpleicons.org/?q=kubernet)
+- [devicon](https://devicon.dev/)
+
 ### Credits
 
 - [xero/startpage](https://github.com/xero/startpage)
